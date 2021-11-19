@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change Color</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+    	<div class="container">
+			<input type="text" id="color" name="color"><br><br>
+			<button type="submit" onclick="myFunction()">Set background color</button>
+		</div>
+	<script>
+
+		function myFunction() {
+			var x = document.getElementById("color").value;
+			document.body.style.backgroundColor = x;
+		}
+	</script> 
+	
+    </body>
+
+</html>
